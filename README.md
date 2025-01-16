@@ -37,7 +37,15 @@ For the second SLA:
 + Name: SEV-B
 + Grace Period: 4
 + Schedule: 24/7
-For the thirs SLA:
+For the third SLA:
 + SEV-C
 + Grace Period: 8
 + Schedule: Mon-Fri 8am-5pm with U.S. Holidays
+
+Finally, we will now configure the Help Topics. While in the Admin Panel > Manage > Help Topics > Add New Help Topic. The 4 help topics we'll be creating are:
++ Business Critical Outage
++ Personal Computer Issues
++ Equipment Request
++ Password Reset
+*pic of adding topics*
+Nice! We've successfully configured osTicket. To learn more about the lifecycle of a ticket, follow pt.3 of this tutorial [here](
