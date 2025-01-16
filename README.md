@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/d9f450f3-770c-412e-b89b-b3f2a1b6e1f3)
 # osTicket-Post-Installation-Configuration
 This tutorial outlines post-install configuration for the open-source help desk ticketing system osTicket.
 # Environments and Technologies Used
