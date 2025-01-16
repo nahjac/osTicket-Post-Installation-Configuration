@@ -14,3 +14,5 @@ Click on each to get a better understanding of osTicket features.
 + [Agents](https://docs.osticket.com/en/latest/Admin/Agents/Agents.html)
 + [User Directory](https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html)
 + [Service Level Agreement (SLA)](https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html)
+# Configuration Steps
+Open osTicket and login with the credentials you created during installation. 
