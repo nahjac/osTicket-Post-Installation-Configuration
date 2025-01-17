@@ -27,11 +27,27 @@ From within the Admin panel, navigate to Agents > Roles > Add New Role. It will 
 <img width="763" alt="SS4" src="https://github.com/user-attachments/assets/d0388af3-6151-4b05-9c91-5b27ff1303c8" />
 
 Now we will configure the departments in our organization. While still in the Admin Panel, Agents > Departments > Add New Department. Name this department "System Administrators". 
-*pic of parameters*
-Next, we'll configure Teams. In the Admin Panel, Agents > Teams > Add New Team and name it "Level II Support". Go to the Members tab and add yourself (helpdesk) and create the team. After finishing that, we'll adjust permissions for ticket creation. Go to Settings then Users. Uncheck the box "Require registration and login to create tickets" and save changes.
-*pic of changing this setting*
-Now we will configure our agents that will be completing support tickets. Under the Agents tab select "Add New Agents". 
-*pic of both parameters (name: jane doe email: jane.doe@osticket.com username: jane.doe uncheck send agent a pw reset email and require pw change on next logon)*
+
+<img width="855" alt="SS5" src="https://github.com/user-attachments/assets/15b9128f-3cc1-48fb-84cf-107184b6e586" />
+
+Next, we'll configure Teams. In the Admin Panel, Agents > Teams > Add New Team and name it "Level II Support". Go to the Members tab and add yourself (the admin account) and create the team. After finishing that, we'll adjust permissions for ticket creation. Go to Settings then Users. Uncheck the box "Require registration and login to create tickets" and save changes.
+
+<img width="821" alt="SS7" src="https://github.com/user-attachments/assets/f6525feb-8db9-4968-a206-9d73ca1afb09" />
+
+Now we will configure our 2 agents that will be completing support tickets. Under the Agents tab select "Add New Agents" and enter the following information for the Agents:
++ Agent 1
+  + Name: Ken Jay
+  + Email: ken.jay@osticket.com
+  + Username: ken.jay
++ Agent 2
+  + Name: Barbie Jay
+  + Email: barbie.jay@osticket.com
+  + Username: barbie.jay
+Ensure that you uncheck the "send agent a password reset email" and "require password change on next logon" boxes when setting the password. This is good practice in a real-world scenario but for training purposes we will not be using these security features.
+
+<img width="755" alt="SS8" src="https://github.com/user-attachments/assets/51431729-67ed-4a1f-8cd4-3259021a4c6d" />
+
+
 After setting the agent password, navigate to the Access tab. Under Primary Department, select "System Administrators" and "SupremeAdmin". Under Extended Access, Select Department > Support > Add > SupremeAdmin. Now navigate to the Team tab and select Level II Support. Finish creating the agent.
 *pic of both*
 Create another agent named "John Doe". You'll follow the same steps as creating the previous agent but with a few exceptions. Under Primary Department select "Support" and "View Only". 
