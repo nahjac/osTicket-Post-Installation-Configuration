@@ -16,9 +16,17 @@ Click on each to get a better understanding of osTicket features.
 + [User Directory](https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html)
 + [Service Level Agreement (SLA)](https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html)
 # Configuration Steps
-Open osTicket and login with the credentials you created during installation. From within the Admin panel, navigate to Agents > Roles > Add New Role. It will be named "SupremeAdmin". In the Permissions tab, check every box under the "Tickets", Tasks", "Knowledgebase" sections.
-*pic of adding role/permissions*
-Now we will configure the departments in our organization. While still in the Admin Panel, Agents > Departments > Add New Department. Name this department "system Administrators". 
+Open osTicket and login with the credentials you created during installation. 
+
+<img width="770" alt="SS1" src="https://github.com/user-attachments/assets/13dba6f7-0365-4137-b8ff-40264ceb9c8a" />
+<img width="862" alt="SS2" src="https://github.com/user-attachments/assets/2635301b-7a96-40e1-ab3e-3fdaf8a8c59b" />
+
+From within the Admin panel, navigate to Agents > Roles > Add New Role. It will be named "SupremeAdmin". In the Permissions tab, check every box under the "Tickets", Tasks", "Knowledgebase" sections.
+
+<img width="833" alt="SS3" src="https://github.com/user-attachments/assets/cfbf8510-5ed9-4a70-b828-23a15997719e" />
+<img width="763" alt="SS4" src="https://github.com/user-attachments/assets/d0388af3-6151-4b05-9c91-5b27ff1303c8" />
+
+Now we will configure the departments in our organization. While still in the Admin Panel, Agents > Departments > Add New Department. Name this department "System Administrators". 
 *pic of parameters*
 Next, we'll configure Teams. In the Admin Panel, Agents > Teams > Add New Team and name it "Level II Support". Go to the Members tab and add yourself (helpdesk) and create the team. After finishing that, we'll adjust permissions for ticket creation. Go to Settings then Users. Uncheck the box "Require registration and login to create tickets" and save changes.
 *pic of changing this setting*
