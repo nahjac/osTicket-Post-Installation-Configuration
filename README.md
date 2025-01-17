@@ -85,5 +85,6 @@ Finally, we will now configure the Help Topics. While in the Admin Panel > Manag
 + Personal Computer Issues
 + Equipment Request
 + Password Reset
-*pic of adding topics*
+
+
 Nice! We've successfully configured osTicket. To learn more about the lifecycle of a ticket, follow pt.3 of this tutorial [here](https://github.com/nahjac/osTicket-Ticket-Lifecycle-Examples).
