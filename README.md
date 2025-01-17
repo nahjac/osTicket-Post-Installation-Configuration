@@ -39,21 +39,29 @@ Now we will configure our 2 agents that will be completing support tickets. Unde
   + Name: Ken Jay
   + Email: ken.jay@osticket.com
   + Username: ken.jay
-+ Agent 2
-  + Name: Barbie Jay
-  + Email: barbie.jay@osticket.com
-  + Username: barbie.jay
 Ensure that you uncheck the "send agent a password reset email" and "require password change on next logon" boxes when setting the password. This is good practice in a real-world scenario but for training purposes we will not be using these security features.
 
 <img width="755" alt="SS8" src="https://github.com/user-attachments/assets/51431729-67ed-4a1f-8cd4-3259021a4c6d" />
 
-
 After setting the agent password, navigate to the Access tab. Under Primary Department, select "System Administrators" and "SupremeAdmin". Under Extended Access, Select Department > Support > Add > SupremeAdmin. Now navigate to the Team tab and select Level II Support. Finish creating the agent.
-*pic of both*
-Create another agent named "John Doe". You'll follow the same steps as creating the previous agent but with a few exceptions. Under Primary Department select "Support" and "View Only". 
-*pic of both*
-Now we'll configure users which are the customers for our organization. While in the Agent Panel, select Users > Add User. We'll create 2 separate users in the system which you can see below:
-*pic of barbie@osticket.com user and ken@osticket.com user parameters*
+
+<img width="717" alt="SS9" src="https://github.com/user-attachments/assets/1e67ef1e-4bb9-433f-8c38-4419d7a220c8" />
+
+Now we will create our second agent. You'll follow the same steps as creating the previous agent but with a few exceptions. Under Primary Department select "Support" and "View Only". 
++ Agent 2
+  + Name: Barbie Jay
+  + Email: barbie.jay@osticket.com
+  + Username: barbie.jay
+
+<img width="695" alt="SS10" src="https://github.com/user-attachments/assets/f7c57bc6-f617-4473-90df-df54f53aaf59" />
+<img width="668" alt="SS11" src="https://github.com/user-attachments/assets/ae29d343-e760-4be8-a8c5-9a1fa4aed953" />
+
+Now we'll configure Users which are our organization's customers. While in the Agent Panel, select Users > Add User. We'll create 2 separate users in the system which you can see below:
+
+<img width="725" alt="SS12" src="https://github.com/user-attachments/assets/7474e421-abd6-401d-8b45-127289eccdc3" />
+<img width="703" alt="SS13" src="https://github.com/user-attachments/assets/6bbe0957-23ce-44ae-b00a-420904707d45" />
+
+
 Now we will configure 3 Service Level Agreements (SLA). SLAs provide a certain length of time for tickets to be closed. While in the Admin Panel, navigate to Manage > SLA > Add New SLA Plan. Use the following parameters:
 + Name: SEV-A
 + Grace Period: 1
@@ -66,6 +74,11 @@ For the third SLA:
 + SEV-C
 + Grace Period: 8
 + Schedule: Mon-Fri 8am-5pm with U.S. Holidays
+
+<img width="730" alt="SS14" src="https://github.com/user-attachments/assets/6f8753f6-84e2-4f99-82bf-3194c7e59269" />
+<img width="737" alt="SS15" src="https://github.com/user-attachments/assets/8c6add36-60ba-46c5-8ba2-03d42f9536cd" />
+<img width="719" alt="SS16" src="https://github.com/user-attachments/assets/4d10cc9c-624a-48d7-a925-fb37e9125d31" />
+
 
 Finally, we will now configure the Help Topics. While in the Admin Panel > Manage > Help Topics > Add New Help Topic. The 4 help topics we'll be creating are:
 + Business Critical Outage
